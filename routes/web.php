@@ -1,6 +1,6 @@
 <?php
 
-Route::resource('products', 'ProductControler');
+Route::resource('products', 'ProductController');
 
 /*
 Route::delete('products/{id}', 'ProductController@destroy')->name('products.destroy');
